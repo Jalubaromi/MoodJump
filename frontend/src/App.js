@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
 
-function App() {
+import Layout from "./components/Layout/Layout.jsx";
+import Home from "./pages/Home/Home.jsx";
+
+export default function App() {
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    fetch("/api/hello")
+      .then(res => res.json())
+      .then(data => setMessage(data.msg))
+      .catch(err => console.error("Erreur fetch:", err));
+
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      < Layout>
+        <h1>{message}</h1>;
+      </Layout>
+  </div>
+  )
 }
-
-export default App;
