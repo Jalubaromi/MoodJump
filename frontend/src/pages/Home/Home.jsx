@@ -4,7 +4,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("/api/hello")
+    fetch("/")
       .then(res => res.json())
       .then(data => setMessage(data.msg))
       .catch(err => console.error("Erreur fetch:", err));
