@@ -1,6 +1,55 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "react-icon": "^1.0.0",
     "react-icons": "^5.5.0"
   }
+=======
+  "name": "projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^5.0.1",
+    "ansi-styles": "^4.3.0",
+    "chalk": "^4.1.2",
+    "cliui": "^8.0.1",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "concurrently": "^9.2.1",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.2.0",
+    "get-caller-file": "^2.0.5",
+    "has-flag": "^4.0.0",
+    "is-fullwidth-code-point": "^3.0.0",
+    "require-directory": "^2.1.1",
+    "rxjs": "^7.8.2",
+    "shell-quote": "^1.8.3",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "supports-color": "^8.1.1",
+    "tree-kill": "^1.2.2",
+    "tslib": "^2.8.1",
+    "wrap-ansi": "^7.0.0",
+    "y18n": "^5.0.8",
+    "yargs": "^17.7.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "scripts": {
+    "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalubaromi/projet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jalubaromi/projet/issues"
+  },
+  "homepage": "https://github.com/Jalubaromi/projet#readme"
+>>>>>>> 4a0184b (feat: Setup Dockerized backend with PostgreSQL" -m "Integrates Docker Compose to run a PostgreSQL database service for the backend." -m "- Adds Express server with a '/api/users' endpoint." -m "- Configures database connection using pg and environment variables." -m "- Sets up a root package.json with 'concurrently' to run frontend and backend together." -m "- Configures frontend proxy to route API requests to the backend." -m "- Resolves local port conflicts by mapping the container's DB port to 5433.")
 }
