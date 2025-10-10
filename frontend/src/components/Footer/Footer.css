@@ -1,8 +1,94 @@
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.footer {
+  background-color: #F2E8CF;
+  color: #386641;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px 30px; /* réduit la hauteur globale */
+  font-family: sans-serif;
+  font-size: 14px;
+  position: relative;
 }
 
+.footer > div {
+  margin-bottom: 10px; /* espace vertical entre les colonnes si wrapping */
+}
+
+/* 1️⃣ Logo */
+.logo img {
+  max-width: 55px;
+  height: auto;
+}
+
+/* 2️⃣ Contact */
+.contact h4,
+.reseaux h4,
+.utile h4,
+.credits h4 {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/* Réseaux sociaux */
+.social-icons {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #386641; /* même couleur que le texte */
+  font-size: 20px; /* taille de l’icône */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #6A994E;
+}
+
+
+/* 4️⃣ Liens utiles */
+.utile a {
+  text-decoration: none;
+  color: #386641;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 3px;
+  transition: color 0.3s;
+}
+
+.utile a:hover {
+  color: #6A994E;
+}
+
+/* 5️⃣ Crédits */
+.credits p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/* 6️⃣ Bottom */
+.bottom {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  border-top: 1px solid #386641;
+  padding-top: 5px;
+}
+
+/* Flex pour les colonnes principales */
+.logo,
+.contact,
+.reseaux,
+.utile,
+.credits {
+  flex: 1 1 150px; /* s’adapte à l’espace disponible */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

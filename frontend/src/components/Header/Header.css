@@ -1,17 +1,47 @@
-
-.header-container{
-    width: 100%;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2E8CF; 
+  padding: 8px 60px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-nav{
+/* Logo */
+.logo img {
+  height: 55px; 
+}
+
+/* Menu */
+.menu {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 2em;
+  justify-content: center; /* centre les liens */
+  flex: 50; /* prend l’espace entre logo et search */
+  gap: 200px; /* espace entre les boutons */
+}
+
+.menu a {
+  border: 2px solid #386641;
+  background-color: #386641;
+  color: #F2E8CF;
+  padding: 10px 50px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none; /* enlève le soulignement */
+  display: inline-block; /* pour garder la forme du bouton */
+}
+
+.menu a:hover {
+  background-color: #6A994E;
+  color: #BC4749;
+}
+
+
+/* Barre de recherche */
+.search input {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
