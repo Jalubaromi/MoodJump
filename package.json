@@ -1,4 +1,8 @@
 {
+
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  }
   "name": "projet",
   "version": "1.0.0",
   "description": "",
