@@ -14,7 +14,7 @@
 }
 
 /* 1️⃣ Logo */
-.logo img {
+.logo2 img {
   max-width: 55px;
   height: auto;
 }
@@ -82,7 +82,6 @@
 }
 
 /* Flex pour les colonnes principales */
-.logo,
 .contact,
 .reseaux,
 .utile,
@@ -91,4 +90,11 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.logo2 {
+  flex: 0 0 auto; /* taille fixe pour le logo */
+  margin-right: 160px;
+  margin-left: 30px;
+  margin-top: 40px;
 }

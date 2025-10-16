@@ -7,7 +7,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="logo">
+      <div className="logo2">
         <img src={logo} alt="Logo du site" />
       </div>
 
