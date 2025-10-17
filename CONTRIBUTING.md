@@ -52,7 +52,7 @@ Types de commit valides :
 TOUT EN ANGLAIS
 
 - `Feat` : ajout de fonctionnalité
-- `Style` : ajout de fonctionnalité
+- `Style` : Modification de style
 - `Fix` : correction de bug
 - `Doc` : documentation
 - `Refactor` : refactorisation

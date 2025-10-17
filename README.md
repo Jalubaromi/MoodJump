@@ -1,15 +1,18 @@
-# Projet MOODJUMP 
+# 🎞️ Projet MOODJUMP 🎞️
 
-##  Description
+
+
+##  📝 Description
 
 Ce projet est une application **monolithique** composée de :
 - Un **frontend** développé avec **React** ,  **CSS**
 - Un **backend** en **Node.js / Express**  
 - Une **base de données PostgreSQL**
 
+- Plus de détails disponibles dans la documentation.
 ---
 
-##  Équipe
+##  👥  Équipe
 
 - **Jawad**
 - **Ludivine**
@@ -19,7 +22,7 @@ Ce projet est une application **monolithique** composée de :
 
 ---
 
-##  Outils et liens projet
+## 📋 Outils et liens projet
 
 - **Kanban Agile (Trello)** : [Lien vers le Trello](https://trello.com/invite/b/68e38e3f62a197f32ccb943e/ATTI38064f3711aa72aa1dddcb90360b9e0c440FBA49/projet-groupe)  
 - **Cahier des charges (Google Doc)** : [Lien vers le document](https://docs.google.com/document/d/14sTCejhtJC8x0bqbGjcuxtom415SlwL06Zfrv3kmnoo/edit?usp=sharing)  
