@@ -1,0 +1,15 @@
+/* Image à droite, alignée en bas et pas jusqu’en haut */
+.login-image {
+  flex: 1;
+  display: flex;
+  align-items: flex-end; /* aligne l’image en bas */
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 5px; /* espace en bas */
+}
+
+.login-image img {
+  width: 300%;
+  height: 95%; /* l’image s’arrête aux 3/4 de la hauteur */
+  object-fit: contain;
+}

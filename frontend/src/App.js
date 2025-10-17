@@ -13,7 +13,7 @@ export default function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Profil" element={<Profil />} />
             <Route path="/Flux" element={<Flux />} />
             <Route path="/Bot" element={<Bot />} />
@@ -21,7 +21,9 @@ export default function App() {
         </Layout>
       </Router>
       */}
+      <Router>
       <Login />
+      </Router>
     </>
   );
 }
